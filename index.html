@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+   
+    <title>100-4K Dataset</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"
+</head>
+
+        <!-- you should probably put some google analytics / meta bits and pieces
+	    here : PRH 
+    <meta property="og:title" content="Paul Hill's Website"> etc.
+      <script async src="https://www.googletagmanager.com/gtag/js?id=??????????"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', '??????????');
+  </script>
+    -->
+
+<body id="page-top">
+    <div class="page-container">
+        <div class="inner">
+            <div class="container">
+                <div class="row">
+                    <div class="row vertical-align">
+  
+                        <div class="col-md-10">
+                            <div class="title">
+                                <h1>A Collection of 100 4K Video Sequences</h1>
+                                <div class="container-sm">
+                                    <div class="row justify-content-md-center">
+                                        <div class="col-sm-auto">
+                                            <p><a href=''>Mariana Afonso</a></p>
+                                            <p>University of Bristol</p>
+                                        </div>
+                                        <div class="col-sm-auto">
+                                            <p><a href='http://angkats.github.io'>Angeliki Katsenou</a></p>
+                                            <p>University of Bristol</p>
+                                        </div>
+                                        <div class="col-sm-auto">
+                                            <p><a href=''>Fan Zhang</a></p>
+                                            <p>University of Bristol</p>
+                                        </div>
+                                        <div class="col-sm-auto">
+                                            <p><a href='http://www.bristol.ac.uk/engineering/people/david-r-bull/index.html'>David R. Bull</a></p>
+                                            <p>University of Bristol</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+			<div class="col-md-2">
+			    <p><a href='https://www.bristol.ac.uk'><img src="uob-logo.svg" width="100%" height="20%" alt=""></a></p>
+			    <p><a href='https://www.bristol.ac.uk/vision-institute'><img src="bvilogo.svg" width="100%" height="20%" alt=""></a></p>
+			     <p><a href='https://vilab.blogs.bristol.ac.uk'><img src="VIL_logo.svg" width="100%" height="20%" alt=""></a></p>
+			    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-md">
+                <h2>About</h2>
+                <p> This is a collection of 100 openly available UHD video sequences. The sequences were downloaded from a variety of sources, 
+                    more specifically, Netflix Chimera, Ultra Video Group, Harmonic Inc, SJTU, and AWS Elemental. All the sequences were spatially 
+                    cropped to UHD (if originally 4K resolution, 4096 × 2160 pixels), converted to 4:2:0 chroma subsampling (if originally 4:2:2 or 4:4:4) 
+                    and temporally cropped to 64 frames. We used 64 frames to reduce the time required to encode all the training sequences. In addition, 
+                    each sequence contains a single scene (without scene cuts) and the majority of the test sequences have a frame rate of 60 fps and bit 
+                    depth of 10 bits per sample. Further detailed specifications of all training sequences can be found in the tables in the next pages. 
+                    Please check the pdf below for the full list of specifications of the sequences and their origin. </p>
+                <p> 
+                </p>
+		<dl>
+		
+		</dl>
+            
+            <hr />
+            <div class="container-md">
+                <h2 id="poster">Thumbnails</h2>
+                <p><a href="ShortClip.mp4"><img src="100_trainingSeqs_frames.png" alt="Video Clip" width=900 class="center" /></a></p>
+            </div>
+            <hr />
+            <div class="container-md">
+                <h2 id="downloads">Downloads</h2>
+                <ul>
+                    <li>Report on Dataset Specifications <a href="100_4K_Dataset.pdf">[pdf]</a></li>
+                    <li>Papers that used this dataset 
+                        <ul>
+                        <li>A. V. Katsenou, J. Sole, and D. R. Bull, "Efficient Bitrate Ladder Construction for Content-Optimized Adaptive Video Streaming". <a href="https://arxiv.org/abs/2102.04550">[arXiv]</a> </li>
+                        <li>A. V. Katsenou, J. Sole, and D. R. Bull, "Content-gnostic Bitrate Ladder Prediction for Adaptive Streaming," 2019 Picture Coding Symposium. <a href="https://ieeexplore.ieee.org/document/8954529">[Paper]</a> </li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+            </div>
+           
+
+        </div>
+    </div>
+</body>
+
+</html>
